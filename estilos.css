@@ -56,11 +56,15 @@ html{
  }
 
  .contenedor-textos-header{
+   width: 100%;
    margin-top: 100px;
+  
  }
  .contenedor-textos-header h1{
-     font-size: 25px;
      margin-bottom: 30px;
+     font-size: 40px;
+    
+     
  }
  .leer{
      margin-top: 20px;
