@@ -1,0 +1,69 @@
+
+.header-principal{
+    width: 100%;
+    height: 600px;
+    background: url(img/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.overlay{
+width: 100%;
+height: 100%;
+background: rgba(125, 2, 240, 0.473);
+position: absolute;
+padding: 50px;
+padding-bottom: 20px;
+
+}
+
+.btn{
+    border-radius: 0;
+}
+.form-control{
+    border-radius: 0;
+}
+.caracteristicas{
+    padding-bottom: 50px;
+}
+.equipo{
+    background: #7D02F0;
+    padding: 50px;
+}
+.contacto{
+    margin: auto;
+}
+.contacto form{
+margin-right: 5%;
+}
+footer{
+    background:#7D02F0 ;
+    padding: 20px;
+    color:#fff;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+/*MEDIA QUERY*/
+@media screen and (max-width:768px){
+.carta-caracteristicas{
+   margin-bottom: 20px; 
+}
+
+.carta-individual-equipo{
+    margin-bottom: 20px; 
+ }
+
+ .contenedor-textos-header{
+   margin-top: 100px;
+ }
+ .contenedor-textos-header h1{
+     font-size: 25px;
+     margin-bottom: 30px;
+ }
+ .leer{
+     margin-top: 20px;
+ }
+ 
+}
